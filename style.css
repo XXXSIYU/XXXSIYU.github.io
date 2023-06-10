@@ -1,0 +1,35 @@
+h1 {
+    color: goldenrod;
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: auto;
+    width: 200px;
+}
+
+h2 {
+    color: rgba(37, 73, 73, .877);
+    font-size: 200px;
+    color: #ffffff;
+}
+
+p {
+    color: black;
+    /* 標籤要跟HTML對的上， a, h1, img, p,etc.*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#box {
+    color: rgb(94, 247, 188);
+    /* ID #開頭 */
+    font-size: 15px;
+}
+
+.title {
+    /* CLASS . 開頭 */
+    font-size: 32px;
+}
+
+.index_color{
+    color: darkgoldenrod;
+}
