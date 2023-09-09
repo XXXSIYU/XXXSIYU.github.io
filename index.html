@@ -1,16 +1,371 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="TW">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Heading</h1>
-    <p id="box"> Hello World</p>
-    <p class="title index_color"> You are Youtiful </p>
-    <!-- 權重：id > class > HTML tag -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-title" content="SIYU">
+    <meta name="application-name" content="SIYU">
+    <meta name="msapplication-TileColor" content="#131417">
+    <meta name="theme-color" content="#131417">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIYU</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
 
+    <!-- Button  -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- 霓虹燈字體 -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">*/ -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Script&display=swap" rel="stylesheet">
+
+    <!--chinese font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600&display=swap" rel="stylesheet">
+
+    <!--footer font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/love.png" alt="#top">
+            </a>
+        </div>
+        <div class="menu">
+            <span><a href="portfolio.html">Portfolio</a></span>
+            <span><a href="contact.html">Contact</a></span>
+            
+        </div>
+        <div class="linkedin">
+            <a href="http://www.linkedin.com/in/siyu-chen-s0129">
+                <img src="images/linkedin.png" alt="Linkedin Profile">
+            </a>
+        </div>
+    </div>
+    <div class="heroimg">
+        <div class="slogan">
+            <div class="title">
+                <h1>Hi, I'm Siyu Chen.</h1>
+            </div>
+            <div class="button">
+                <a href="#name" style="text-decoration:none; color:white;">
+                    About Me
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content" id = "name"></div>
+    <div class="content">
+        <div class="row">
+
+            <div class="image-cropper">
+                <img src="images/idphoto.jpg" class="rounded" />
+                <p class="name">陳思妤 Siyu Chen</p2>
+            </div>
+            <div class="introduction">
+                <section id="content">
+                    <h2>Introduction</h2>
+                </section>
+                <p>我是一個凡事正向思考，有韌性的人，因為有著樂觀與積極的態度，深信吸引力法則，因此會選擇正視困境並加以突破。致力於不斷發展個人技能和加強專業。我有信心能提出有趣的想法，並系統化地完成目標。
+                </p>
+            </div>
+
+            <!-- 擅長把想法與建議加以落實，有組織能力、工作勤奮，能自我約束，可靠、高效率、做事不好高騖遠，有強烈的自我控制力及紀律意識。
+    
+                熱情、合群、負責。 -->
+
+        </div>
+
+
+        <hr class="dashed">
+
+        <div class="divtitle">
+            <p>學歷 Education</p>
+        </div>
+        <div class="Education">
+            <div class="image-cropper edupng">
+                <img src="images/ed/NCU.png" class="rounded-edu" />
+            </div>
+            <div class="school">
+                <p>國立中央大學 National Central University</p>
+                <p>資訊管理學系 Department of Information Management</p>
+            </div>
+            <div class="schoolyear"> 2019 - 2023</div>
+        </div>
+
+        <div class="Education NYCU">
+            <div class="image-cropper edupng">
+                <img src="images/ed/NYCU.png" class="rounded-edu" />
+            </div>
+            <div class="school">
+                <p>國立陽明交通大學 National Yang Ming Chiao Tung University</p>
+                <p>資訊管理研究所 Institute of Information Management</p>
+            </div>
+            <div class="schoolyear nycu">2023 - 2025</div>
+
+        </div>
+
+        <hr class="dashed">
+
+        <div class="divtitle">
+            <p>工作經歷 Working Experience</p>
+        </div>
+
+        <div class="Work">
+            <div class="image-cropper workpng">
+                <img src="images/work/CT.jpg" class="rounded-work" />
+            </div>
+            <div class="worktitle">
+                <p>Summer Intern Data Assistant</p>
+                <p class="company">Chunghwa Telecom Laboratories</p>
+                <br>
+
+                <div class="workyear"> 7月 2020 - 8月 2020 <br>
+                    Taoyuan, Taiwan</div>
+            </div>
+
+            <div class="description">
+                於交通與安防研究所，進行深度學習模型訓練專案，職掌內容主要為標註資料蒐集、蒐集、處理、資料工具開發。(包含：國內外車牌、智慧航港、科技執 法、工安辨識、空拍影像辨識、 智能巡檢等相關不同應用與場域資料) 。
+                <br>
+                The work content belongs to the preliminary work of deep learning model training, which is the data
+                labeling of cargos and images of traffic cameras.
+            </div>
+        </div>
+
+        <div class="Work CT2">
+            <div class="image-cropper workpng">
+                <img src="images/work/CT.jpg" class="rounded-work" />
+            </div>
+            <div class="worktitle">
+                <p>Summer Intern of Natural Language Processing</p>
+                <p class="company">Chunghwa Telecom Laboratories</p>
+                <br>
+
+                <div class="workyear"> 7月 2023 - 8月 2023 <br>
+                    Taoyuan, Taiwan</div>
+            </div>
+
+            <div class="description">
+                於資通技術整合處協助進行大語言模型建構資料的整理，進行翻譯修正及模型訓練後摘要的篩選及彙整。
+                <br>
+                I assist in the Bureau of Data Organization for the construction of large language models at the
+                Information Technology Integration Department. This includes translation correction, filtering, and
+                summarization after model training.
+            </div>
+        </div>
+
+        <hr class="dashed">
+
+        <div class="skill">
+            <div class="introduction skill-introduction">
+                <br><br><br>
+                <h2>技能 Skill</h2>
+                <p class="skill-p">擅長的程式語言還有專業軟體，及文書處理工具，以及語言能力。</p>
+                <p class="language">
+                <div class="languagetitle">
+                    <span class="lang">語言 Languages </span>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>中文 Chinese</li>
+                        <li>英文 English</li>
+                        <li>韓文 Korean</li>
+                    </ul>
+                </div>
+                </p>
+            </div>
+            <div class="catogory">
+                <br><br><br>
+                <span class="skill-span">Programming Language </span>
+                <div class="image-frame">
+                    <div class="image-container">
+                        <img src="images/skills/python.png" alt="python" class="skill-png">
+                        <img src="images/skills/Java.png" alt="java" class="skill-png">
+                        <img src="images/skills/c.png" alt="c" class="skill-png">
+                        <img src="images/skills/html5.png" alt="html" class="skill-png">
+                        <img src="images/skills/css3.png" alt="css" class="skill-png">
+                        <img src="images/skills/javascript.png" alt="javascript" class="skill-png">
+                    </div>
+
+                </div>
+
+                <span class="skill-span">Data Science</span>
+                <div class="image-frame">
+                    <div class="image-container">
+                        <img src="images/skills/PowerBI.png" alt="PowerBI" class="skill-png">
+                        <img src="images/skills/SAP.png" alt="SAP" class="skill-png">
+                    </div>
+                </div>
+
+                <span class="skill-span">Productivity Tools</span>
+                <div class="image-frame">
+                    <div class="image-container">
+                        <img src="images/skills/canva.png" alt="Canva" class="skill-png">
+                        <img src="images/skills/PowerPoint.png" alt="PowerPoint" class="skill-png">
+                        <img src="images/skills/word.png" alt="MicroSoft Word" class="skill-png">
+                    </div>
+                </div>
+
+                <span class="skill-span">Adobe</span>
+                <div class="image-frame">
+                    <div class="image-container">
+                        <img src="images/skills/Illustrator.png" alt="Abode Illustrator" class="skill-png">
+                        <img src="images/skills/pr.png" alt="Adobe Premiere Pro" class="skill-png">
+                        <img src="images/skills/ps.png" alt="Adobe Photoshop" class="skill-png">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- --------------------------------------------------------------------- -->
+    <div class="video-container">
+        <div class="viedoarea">
+            <div class="app">
+                <div class="cardList">
+                    <button class="cardList__btn btn btn--left">
+                        <div class="icon">
+                            <svg>
+                                <use xlink:href="#arrow-left"></use>
+                            </svg>
+                        </div>
+                    </button>
+
+                    <div class="cards__wrapper">
+                        <div class="card current--card">
+                            <a href="https://youtu.be/9ZawZa-UBmc">
+                                <div class="card__image">
+                                    <img src="images/cover/1.jpg" alt="⛰️Graduation Trip 📍 Mt. Hehuan 🇹🇼" />
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card next--card">
+                            <div class="card__image">
+                                <a href="https://youtu.be/cE38j26qbdE?si=83WJaHsdAHkM7Ig2">
+                                    <img src="images/cover/2.jpg" alt="✈️ 2023 Graduation Trip I 📍 Okinawa 🇯🇵" />
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <div class="card previous--card">
+                            <div class="card__image">
+                                <a href="https://youtu.be/a7kS7fYlKLE?si=p38m69bVu_of_u2W">
+                                    <img src="images/cover/3.jpg" alt="✈️ 2023 Graduation Trip II📍 Okinawa 🇯🇵" />
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="cardList__btn btn btn--right">
+                        <div class="icon">
+                            <svg>
+                                <use xlink:href="#arrow-right"></use>
+                            </svg>
+                        </div>
+                    </button>
+                </div>
+
+                <div class="infoList">
+                    <div class="info__wrapper">
+                        <div class="info current--info">
+                            <p class="text name">Mt. Hehuan</p>
+                            <h5 class="text location">Taiwan</h5>
+                            <p class="text description">The mountains are calling</p>
+                        </div>
+
+                        <div class="info next--info">
+                            <p class="text name">Okinawa</p>
+                            <h5 class="text location">Okinawa Gyukusendo Cave,<br> Churaumi Aquarium</h5>
+                            <p class="text description">Adventure is never far away</p>
+                        </div>
+
+                        <div class="info previous--info">
+                            <p class="text name">Okinawa</p>
+                            <h5 class="text location">Ryukyu Mura, <br> Kourijima, Depot Island</h5>
+                            <p class="text description">Let your dreams come true</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="app__bg">
+                    <div class="app__bg__image current--image">
+                        <img src="https://source.unsplash.com/Z8dtTatMVMw" alt="" />
+                    </div>
+                    <div class="app__bg__image next--image">
+                        <img src="https://source.unsplash.com/9dmycbFE7mQ" alt="" />
+                    </div>
+                    <div class="app__bg__image previous--image">
+                        <img src="https://source.unsplash.com/m7K4KzL5aQ8" alt="" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="loading__wrapper">
+                <div class="loader--text">Loading...</div>
+                <div class="loader">
+                    <span></span>
+                </div>
+            </div>
+
+
+            <svg class="icons" style="display: none;">
+                <symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+                    <polyline points='328 112 184 256 328 400'
+                        style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+                </symbol>
+                <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+                    <polyline points='184 112 328 256 184 400'
+                        style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+                </symbol>
+            </svg>
+        </div>
+
+    </div>
+
+
+    <!-- --------------------------------------------- -->
+
+
+    <div class="footer">
+        <div class="sitemap">
+            Life isn't about waiting for the storm to pass. It's about learning to dance in the rain.
+        </div>
+    </div>
+    <a href="#top" class="btn-top">
+        <span></span>
+    </a>
+
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="card.js"></script>
 </body>
+
 </html>
