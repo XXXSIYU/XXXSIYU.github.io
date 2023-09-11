@@ -1,0 +1,36 @@
+ .col-cus {
+    -webkit-filter: drop-shadow(-6px 0px 10px rgba(136, 134, 134, 0.044));
+    filter: drop-shadow(-6px 0px 5px #000);
+    margin-left: -10%;
+    padding: 10px;
+    transition: all 0.3s;
+    min-width: 15%;
+}
+
+
+.col-cus:hover {
+    transform: translate(-0.5rem, -2rem) rotate(3deg);
+}
+
+.row .col-cus:hover+.col-cus:nth-child(2n){
+    transform: translateX(15%);
+}
+
+.card-cus {
+    background-color: #aaa;
+    padding:10px 5px;
+    border-radius: 16px;
+    background: linear-gradient(85deg, #434343, #262626);
+    color: #fff;
+}
+
+
+
+@media screen and (min-width: 576px) {
+    .col-cus:hover~.col-cus {
+        /* .aaa:hover~.bbb */
+        /* 波浪符代表aaa後面所有的 bbb calss全部新增屬性 */
+        transform: translateX(45%);
+    }
+    
+}
